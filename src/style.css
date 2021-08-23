@@ -709,8 +709,14 @@ PORTFOLIO
 }
 
 .work-img {
+  width: 20rem;
+  height: 11rem;
   display: block;
   overflow: hidden;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .work-img img {
@@ -904,6 +910,11 @@ BUTTON
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: .3rem;
+}
+
+.button-clr a {
+  text-decoration: none;
+  color: white;
 }
 
 @media (min-width: 577px) {

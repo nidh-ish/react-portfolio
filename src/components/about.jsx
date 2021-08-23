@@ -6,56 +6,53 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
-        {
-          id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
-        },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
-        {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
-        },
         {
           id: "Python_skill",
           content: "Python",
-          porcentage: "75%",
-          value: "75"
+          porcentage: "90%",
+          value: "90"
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
+          id: "C/C++_skill",
+          content: "C/C++",
+          porcentage: "90%",
+          value: "90"
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
+          id: "Java_skill",
+          content: "Java",
           porcentage: "80%",
           value: "80"
+        },
+        {
+          id: "Go_skill",
+          content: "Go",
+          porcentage: "60%",
+          value: "60"
+        },
+        {
+          id: "Shell scripting_skill",
+          content: "Shell scripting",
+          porcentage: "60%",
+          value: "60"
         }
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I am a third year iMtech student at IIIT Bangalore. I am interested in the field of cybersecurity and looking forward to make a career out of it. I like to keep myself updated with the latest trends and technologies. I also find myself very much interested in networking, cryptography, and have been exploring various other fields in the domain of cybersecurity since the past two years."
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I like to read books in my free time. I am a music lover and always listen to music to relieve my work stress."
         },
         {
           id: "third-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        }
+          <center><button type="submit" className="button button-a button-big button-rouded button-clr"><a href={"https://drive.google.com/file/d/1xsFtwCcJJNmor3kSuuqFRKk5mb8I1pvY/view?usp=sharing"} target="_blank" rel="noopener noreferrer">Resume</a></button></center>
+        } 
       ]
     };
   }
@@ -86,6 +83,13 @@ class About extends React.Component {
                       </div>
                     </div>
                     <div className="skill-mf">
+                    <div className="col-md-6">
+                    <div className="about-me pt-4 pt-md-0">
+                      <div className="title-box-2">
+                        <h5 className="title-left">Skills</h5>
+                      </div>
+                    </div>
+                  </div>
                       {/* <p className="title-s">Skill</p> */}
                       {this.state.skills.map(skill => {
                         return (

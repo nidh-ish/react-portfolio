@@ -88,7 +88,7 @@ class Contact extends React.Component {
                             <div className="col-md-12">
                               <button
                                 type="submit"
-                                className="button button-a button-big button-rouded"
+                                className="btn btn-primary button-big btn js-scroll px-4"
                               >
                                 Send Message
                               </button>

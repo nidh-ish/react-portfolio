@@ -51,7 +51,7 @@ class About extends React.Component {
         {
           id: "third-p-about",
           content:
-          <center><button type="submit" className="button button-a button-big button-rouded button-clr"><a href={"https://drive.google.com/file/d/1xsFtwCcJJNmor3kSuuqFRKk5mb8I1pvY/view?usp=sharing"} target="_blank" rel="noopener noreferrer">Resume</a></button></center>
+          <center><a className="btn btn-primary button-big btn js-scroll px-4" href={"https://drive.google.com/file/d/1xsFtwCcJJNmor3kSuuqFRKk5mb8I1pvY/view?usp=sharing"} target="_blank" rel="noopener noreferrer" role="button">Resume</a></center>
         } 
       ]
     };
